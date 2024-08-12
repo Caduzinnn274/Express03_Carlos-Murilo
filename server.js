@@ -1,6 +1,9 @@
 const express = require("express");
-const mysql2 = require("mysql2");
-const server = express();
+const mysql = require("mysql2");
 
+const app = express();
+app.listen(3000, ()=>{
+    
+    console.log("Servidor em Execução");
 
-server.listen(3000);
+})
